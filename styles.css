@@ -1,0 +1,123 @@
+    font-family: Arial, Helvetica, sans-serif;
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;     
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue-back {
+    background-color: #0eaaaa; 
+}
+
+.red-back {
+    background-color: #ff5533;
+}
+
+.orange-back {
+    background-color: #ff9933;
+}
+
+.brown-back {
+    background-color: bisque;
+}
+
+
+.title-main {
+    text-align: center;
+    border-bottom: red;
+    border-width: 2px;
+    border-style: solid;
+    color: green;
+}
+
+.title-pizza {
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: aqua
+}
+
+.title-spaghetti {
+    text-align: center;
+    border-bottom: 2px solid chartreuse;
+    color: darkblue;
+}
+
+.title-chic {
+    text-align: center;
+    border-bottom: 2px solid darkcyan;
+    color: darkcyan;
+}
+
+.inline-list {
+    text-align: center;
+}
+
+.recipes {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color:aquamarine;
+}
+
+.recipes a {
+    display: block;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.block-img {
+    display: block;
+}
+
+.spag-img,
+.chic-img,
+.pep-img {
+    margin: 10px auto;
+    display: block;
+}
+
+.pizza-headings {
+    display: block;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.chic-headings,
+.spaghetti-headings {
+    color: darkblue;
+    margin: 10px 10px 2px;
+    display: block;
+}
+
+.chic-sub-headings,
+.spag-sub-headings {
+    color: darkslateblue;
+    margin-left: 20px;
+
+}
+
+.chic-text,
+.spag-text {
+    color: dodgerblue;
+    margin-left: 50px;
+}
+
+.pizza-makeup {
+    color:blueviolet;
+    margin-left: 40px;
+}
+
